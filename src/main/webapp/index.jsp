@@ -8,8 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
+<<<<<<< HEAD
         <title>Laboratorio CLinico</title>
         <link rel="stylesheet" href="estiloLogin.css" />
+=======
+        <title>Laboratorio CLinico Richard Parker</title>
+>>>>>>> 4ddb788ae9dedc5b7e1e26e86eea16fe900eb3d0
     </head>
     <body>
     <div id="container">
