@@ -1,0 +1,38 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        font-family: aakar;
+    }
+
+    #container{
+        width: 1290px;
+        margin: auto 0px;
+        border: 1px solid chocolate;
+    }
+
+    #cont{
+        float: left;
+        width: 70%;
+        background: powderblue;
+        min-height: 600px;
+    }
+
+    aside{
+        float: left;
+        width: calc(30% - 20px);
+        background: hotpink;
+        min-height: 600px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer{
+        background: blueviolet;
+        color: white;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+    }
