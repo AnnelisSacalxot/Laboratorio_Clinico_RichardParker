@@ -10,15 +10,15 @@
     <head>
         <title>Laboratorio CLinico</title>
         <link rel="stylesheet" href="estiloLogin.css" />
-        <title>Laboratorio CLinico Richard Parker</title>
+        <title>Laboratorio CLínico Richard Parker</title>
     </head>
     <body>
     <div id="container">
         <section id="cont">
             <%--span Crea una caja: En línea --%>
-            <span> Laboratorio clinico <br/> Richard Parker </span>
+                <br/><span style="font-size: 4em"> Laboratorio Clínico <br/><br/> Richard Parker </span><br/>
                 <%--Diseño de Bootstrap --%>
-                <form>
+                <br/><br/><form>
                     <div class="row mb-3">
                         <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Iniciar sesión</button><br/>
+                    <button type="submit" class="btn btn-primary">Iniciar sesión</button><br/><br/>
                     <button type="submit" class="btn btn-primary">Registrarme</button>
                 </form>
         </section >

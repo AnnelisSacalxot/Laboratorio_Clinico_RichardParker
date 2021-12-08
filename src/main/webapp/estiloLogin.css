@@ -11,13 +11,15 @@
         width: 1290px;
         margin: auto 0px;
         border: 1px solid chocolate;
+        text-align: center;
     }
 
     #cont{
         float: left;
         width: 70%;
-        background: powderblue;
+        background: lawngreen;
         min-height: 600px;
+        line-height: 40px;
     }
 
     aside{
