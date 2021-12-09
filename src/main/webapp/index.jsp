@@ -12,34 +12,6 @@
         <link rel="stylesheet" href="estiloLogin.css" />
         <title>Laboratorio CLínico Richard Parker</title>
     </head>
-    <div class="ventanaEmergente" id="ventRegistro">
-        <a href="javascript:cerrarVent()"><div id="cerrar">  <img src= "IMG/cacelar"></div></a>
-        <%--Diseño Bootstrap para poder registrarse y tener una cuenta--%>
-        <form class="row g-3">
-            <h2>¡Crea tu cuenta ya mismo!</h2><br/>
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-                </div><br/>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-                </div><br/>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Correo eléctronico" aria-label="correo electronico">
-                </div><br/>
-                <div class="col">
-                    <input type="password" class="form-control" placeholder="Contraseña" aria-label="contraseña1">
-                </div><br/>
-                <div class="col">
-                    <input type="password" class="form-control" placeholder="Confirmar Contraseña" aria-label="contraseña2">
-                </div><br/>
-            </div><br/>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-            </div>
-        </form>
-    </div>
-
     <body>
     <div id="container">
         <section id="cont">
@@ -69,10 +41,10 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary" >Iniciar sesión</button><br/><br/>
-                    <a class="btn btn-primary" href="#" role="button" onclick='abrirRegistro()'>Registrarse</a>
+                <%--<button type="submit" class="btn btn-primary">Iniciar sesión</button><br/><br/>--%>
+                <input type="submit" value="Iniciar sesion"><br/>
+                    <a class="btn btn-primary" href="registro.jsp" role="button" onclick='abrirRegistro()'>Registrarse</a>
                 </form>
-
         </section >
         <%--Barra lateral --%>
         <aside>
