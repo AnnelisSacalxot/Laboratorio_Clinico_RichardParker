@@ -4,7 +4,7 @@
     }
 
     body{
-        font-family: aakar;
+        font-family: "Abyssinica SIL"
     }
 
     #container{
@@ -16,16 +16,16 @@
 
     #cont{
         float: left;
-        width: 70%;
-        background: lawngreen;
+        width: 60%;
+        background: chocolate;
         min-height: 600px;
         line-height: 40px;
     }
 
     aside{
         float: left;
-        width: calc(30% - 20px);
-        background: hotpink;
+        width: calc(40% - 20px);
+        background: white;
         min-height: 600px;
         padding-left: 10px;
         padding-right: 10px;
@@ -38,3 +38,25 @@
         height: 50px;
         line-height: 50px;
     }
+
+    .ventanaEmergente{
+        background: brown;
+        width: 50%;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        min-height: 300px;
+        border-radius: 20px;
+        position: absolute;
+        left: 30%;
+        top: 30%;
+        display: none;
+    }
+
+    #cerrar{
+        position: absolute;
+        top: 130px;
+        left: 480px ;
+        right: 480px;
+        padding: 200px;
+   }

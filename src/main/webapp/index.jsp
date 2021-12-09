@@ -12,6 +12,10 @@
         <link rel="stylesheet" href="estiloLogin.css" />
         <title>Laboratorio CLínico Richard Parker</title>
     </head>
+    <div class="ventanaEmergente" id="ventRegistro">
+        <a href="javascript:cerrarVent() "><div id="cerrar">  <img src= "IMG/cacelar"></div></a>
+    </div>
+
     <body>
     <div id="container">
         <section id="cont">
@@ -41,13 +45,15 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Iniciar sesión</button><br/><br/>
-                    <button type="submit" class="btn btn-primary">Registrarme</button>
+                    <button type="submit" class="btn btn-primary" >Iniciar sesión</button><br/><br/>
+                    <a class="btn btn-primary" href="#" role="button" onclick='abrirRegistro()'>Registrarse</a>
                 </form>
+
         </section >
         <%--Barra lateral --%>
         <aside>
-            <h2>Barra lateral</h2>
+
+            <img src= "https://cdn.pixabay.com/photo/2021/02/06/22/39/cat-5989630_960_720.jpg" height="600" width="510">
         </aside>
         <%--Pie de pagina --%>
         <div class="ui-helper-clearfix"> </div>
@@ -55,5 +61,6 @@
             Laboratorio Richard Parker de la S.E.L.V.A.
         </footer>
     </div>
+    <script type="text/javascript" src="funLaboratorio.js"></script>
     </body>
 </html>
