@@ -1,83 +1,83 @@
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-    body{
-        font-family: "Abyssinica SIL"
-    }
+body{
+    font-family: "Abyssinica SIL"
+}
 
-    #container{
-        width: 1290px;
-        margin: auto 0px;
-        border: 1px solid chocolate;
-        text-align: center;
-    }
+#container{
+    width: 1290px;
+    margin: auto 0px;
+    border: 1px solid chocolate;
+    text-align: center;
+}
 
-    #cont{
-        float: left;
-        width: 60%;
-        background: chocolate;
-        min-height: 600px;
-        line-height: 40px;
-    }
+#cont{
+    float: left;
+    width: 60%;
+    background: chocolate;
+    min-height: 600px;
+    line-height: 40px;
+}
 
-    aside{
-        float: left;
-        width: calc(40% - 20px);
-        background: white;
-        min-height: 600px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+aside{
+    float: left;
+    width: calc(40% - 20px);
+    background: white;
+    min-height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-    footer{
-        background: blueviolet;
-        color: white;
-        text-align: center;
-        height: 50px;
-        line-height: 50px;
-    }
+footer{
+    background: brown;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
 
-    .ventanaEmergente{
-        background: brown;
-        width: 50%;
-        color: white;
-        text-align: center;
-        padding: 30px;
-        min-height: 250px;
-        border-radius: 20px;
-        position: absolute;
-        left: 20%;
-        top: 20%;
-        display: none;
-    }
+.ventanaEmergente{
+    background: brown;
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    min-height: 250px;
+    border-radius: 20px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    display: none;
+}
 
-    #cerrar{
-        position: absolute;
-        top: 130px;
-        left: 480px ;
-        right: 480px;
-        padding: 200px;
-   }
-    /*Aqui comienza el estilo del registro*/
+#cerrar{
+    position: absolute;
+    top: 130px;
+    left: 480px ;
+    right: 480px;
+    padding: 200px;
+}
+/*Aqui comienza el estilo del registro*/
 
-    .registroUsu{
-        width: 350px;
-        height: 500px;
-        background: brown;
-        color: white;
-        top: 50%;
-        left: 50%;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        box-sizing: border-box;
-        padding: 70px 30px;
-    }
+.registroUsu{
+    width: 350px;
+    height: 500px;
+    background: brown;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
 
-    registroUsu h2{
-        margin: 0;
-        padding: 0 0 20px;
-        text-align: center;
-        font-size: 10px;
-    }
+registroUsu h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 10px;
+}
