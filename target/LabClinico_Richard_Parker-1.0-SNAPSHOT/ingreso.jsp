@@ -14,7 +14,9 @@
     <body>
     <div id="container">
         <section id="cont">
+            <br/><span> <h1> Registro de clientes</h1></span>
             <%--Diseño de Bootstrap con Login para que el usuario inicie sesion--%>
+                <br/><br/><br/>
                 <form class="row g-3">
                     <div class="col-md-6">
                         <label for="inputNombre" class="form-label">Nombre</label>
@@ -39,7 +41,9 @@
         </section >
         <%--Barra lateral --%>
         <aside>
-
+            <br/><h2> Ficha de registro</h2><br/>
+            <h2> Mi perfil</h2><br/>
+            <h2> Cerrrar sesión</h2><br/>
         </aside>
         <%--Pie de pagina --%>
         <div class="ui-helper-clearfix"> </div>
